@@ -1,0 +1,26 @@
+ class Rectangle
+{
+	int len;
+	int bre;
+	Rectangle()
+	{
+		len=10;
+		bre=20;
+	}
+	int area_rectangle()
+	{
+		int area;
+		area=len*bre;
+		return area;
+	}
+class Rectangle1
+{
+	public static void main(String[] args)
+		{
+			Rectangle r=new Rectangle();
+			Rectangle r1=new Rectangle();
+			int area =r.area_rectangle();
+			int area =r1.area_rectangle();
+			System.out.println(area+""+area1);
+		}
+}
